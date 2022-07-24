@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify music player</title>
+</head>
+<link rel="stylesheet" href="stye.css">
+<body>
+    <nav>
+        <ul>
+            <li class="logo"> 
+                <img src="logo.png" alt="">
+                Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songs"><h1> Your Favourites</h1>
+            <div class="songscontainer">
+        <div class="song-item">
+            <img  id="image" alt="2">
+            <span class="songplay"> <span class="splay"> No Love</span>
+                <span class="timespan">5:20</span>
+                <i  class="play"  ><img id="0" src="playicon.jfif" alt=""></i>
+            </span>
+        </div>
+        <div class="song-item">
+            <img id="image" alt="2">
+            <span class="songplay"> <span class="splay"> No Love</span>
+                <span class="timespan">5:20</span>
+                <i  class="play" ><img id="1"  src="playicon.jfif" alt=""></i>
+            </span>
+        </div>
+        <div class="song-item">
+            <img id="image" alt="2">
+            <span class="songplay"> <span class="splay"> No Love</span>
+                <span class="timespan">5:20</span>
+                <i  class="play"  ><img id="2" src="playicon.jfif" alt=""></i>
+            </span>
+        </div>
+        <div class="song-item">
+            <img id="image" alt="2">
+            <span class="songplay"> <span class="splay"> No Love</span>
+                <span class="timespan">5:20</span>
+                <i  class="play" ><img id="3"  src="playicon.jfif" alt=""></i             >
+    </span>
+                
+            </span>
+        </div>
+        <div class="song-item">
+            <img  id="image"alt="2">
+            <span class="songplay"><span class="splay"> No Love</span>
+                <span class="timespan">5:20</span>
+                <i  class="play" ><img id="4"  src="playicon.jfif" alt=""></i>
+            </span>
+        </div>
+    </div>        
+    </div>
+
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" value="0" min="0" max="100">
+        <div class="icons">
+                 <i >
+            <img class="backward" src="backward.png" alt="">
+          </i>
+          <i>
+              <img class="play1"  src="playicon.jfif" alt="" id="masterPlay">
+          </i>
+    
+          <i >
+            <img  class="forward" src="forward.png" alt="" >
+          </i>
+          
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="" id="gif">
+            <span class="mastersongplay">No Love - Shubh</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
